@@ -77,6 +77,6 @@
     "vite-open": "^3.0.1"
   },
   "dependencies": {
-    "sigl": "^0.0.7"
+    "sigl": "^0.0.9"
   }
 }
