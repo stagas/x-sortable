@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/x-sortable",
   "description": "Sortable Web Component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -77,6 +77,6 @@
     "vite-open": "^3.0.1"
   },
   "dependencies": {
-    "sigl": "^0.0.9"
+    "sigl": "^1.0.0"
   }
 }
