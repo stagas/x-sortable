@@ -7,10 +7,10 @@ export type SortableEvents = {
   sortend: CustomEvent<{ oldIndex: number; newIndex: number }>
 }
 
-export enum SortableState {
-  Idle = 'idle',
-  Sort = 'sort',
-}
+export const SortableState = {
+  Idle: 'idle',
+  Sort: 'sort',
+} as const
 
 @$.element()
 export class SortableElement extends HTMLElement {
